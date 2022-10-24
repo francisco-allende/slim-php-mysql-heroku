@@ -38,9 +38,11 @@ $app->group('/usuarios', function (RouteCollectorProxy $group) {
   });
 
 $app->get('[/]', function (Request $request, Response $response) {    
-    $response->getBody()->write("Slim Framework 4 PHP");
+    $response->getBody()->write("Slim Framework 4 PHP Francisco Allende");
     return $response;
 
 });
 
 $app->run();
+
+//repo de Francisco Allende
